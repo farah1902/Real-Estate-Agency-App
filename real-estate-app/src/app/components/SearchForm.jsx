@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-import './SearchForm.css'
+import './searchForm.css'
 
 export default function SearchForm() {
     const handleCloseSearchForm = () => {
