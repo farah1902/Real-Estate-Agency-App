@@ -1,0 +1,99 @@
+/*------------/ Property Single /---------*/
+.gallery-property {
+    margin-bottom: 3rem;
+}
+
+.property-price {
+    margin: 0 auto;
+}
+
+.property-price .card-header-c {
+    padding: 0;
+}
+
+.property-summary {
+    margin-top: 2.5rem;
+}
+
+.summary-list {
+    padding-right: 1rem;
+    color: #000000;
+}
+
+.summary-list .list {
+    padding: 0;
+    line-height: 2;
+}
+
+.summary-list .list span {
+    color: #555555;
+}
+
+.card-box-ico {
+    padding: 1rem 3rem 1rem 2.5rem;
+    border:  5px solid #2eca6a;
+}
+
+.card-box-ico span {
+    font-size: 4rem;
+    color: #000000;
+}
+
+.title-c {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: -40px;
+}
+
+.carousel-item-b img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .title-c {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .title-c {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 767px) {
+    .property-agent {
+        margin-top: 2.5rem;
+    }
+}
+
+.property-agent .title-agent {
+    font-weight: 600;
+}
+
+.property-agent ul {
+    line-height: 2;
+    color: #000000;
+}
+
+.property-agent .socials-a {
+    text-align: center;
+}
+
+@media (min-width: 991px) {
+    .property-contact {
+        margin-top: 2.5rem;
+    }
+}
+
+.amenities-list ul.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 items per row */
+    padding-left: 0; /* Remove default padding */
+}
+
+.amenities-list ul.grid-container li.grid-item {
+    display: flex; /* Align list marker and text */
+    align-items: center; /* Center items vertically */
+    white-space: nowrap; /* Prevent text from wrapping */
+}

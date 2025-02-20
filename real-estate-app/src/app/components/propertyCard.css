@@ -1,0 +1,180 @@
+/*=============================
+//--//-- Property Card-A
+=============================*/
+
+.card-box-a {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in;
+}
+
+.card-overlay-a-content {
+    transition: all 0.5s ease-in;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+.card-header-a {
+    padding: 0 1rem;
+}
+
+
+.card-header-a .card-title-a a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-body-a {
+    z-index: 2;
+    transition: all 0.5s ease-in;
+    padding: 0rem 1rem 2rem 1rem !important;
+}
+
+.card-body-a .price-box {
+    padding-bottom: 0.5rem;
+}
+
+.price-a {
+    color: #fff ;
+    padding: 0.6rem 0.8rem;
+    border: 2px solid #2eca6a;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.03rem;
+}
+
+
+.card-footer-a {
+    position: absolute;
+    width: 100%;
+    background-color: #2eca6a;
+    transition: all 0.5s ease-in;
+    z-index: 2;
+}
+
+
+.card-header-a {
+    padding: 0 1rem;
+}
+
+.card-header-a .card-title-a {
+    padding-bottom: 0.7rem;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+
+.card-info {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-info .card-info-title {
+    font-size: 1rem;
+    color: #313131;
+}
+
+.card-info li span {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+
+@media (min-width: 768px) {
+    .card-box-a:hover .card-overlay-a-content {
+        bottom: 60px;
+    }
+}
+
+@media (min-width: 768px) and (min-width: 768px) {
+    .card-box-a:hover .card-overlay-a-content {
+        bottom: 60px;
+    }
+}
+
+@media (min-width: 768px) and (min-width: 992px) {
+    .card-box-a:hover .card-overlay-a-content {
+        bottom: 64px;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-box-a:hover .card-body-a {
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width: 767px) { 
+    .card-box-a .card-overlay-a-content {
+        bottom: 0px;
+    }
+
+    .card-box-a .card-body-a {
+        padding-bottom: 0rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-overlay-a-content {
+        bottom: -20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-overlay-a-content {
+        bottom: 0px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .card-header-a .card-title-a {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-header-a .card-title-a {
+        font-size: 2rem;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .card-info .card-info-title {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-info .card-info-title {
+        font-size: 1rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .card-info li span {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-info li span {
+        font-size: 1rem;
+    }
+}
