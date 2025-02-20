@@ -1,4 +1,4 @@
-# 🏡 Responsive Real Estate Agency Website
+# 🏡 Responsive Real Estate Agency Application
 
 Welcome to the Responsive Real Estate Agency Website—a fully responsive, modern, and feature-rich real estate platform built using **Next.js**. This project is designed to provide a seamless user experience while offering an efficient way to showcase real estate listings. 🚀
 
